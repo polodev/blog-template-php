@@ -13,7 +13,23 @@
         </div>
       </article>
 
-      
+      <div>
+        <h2>All comments</h2>
+        <hr>
+        <?php for ($i = 0; $i < 7; $i++) : ?>
+          <div class="card my-4 p-2">
+            <h4 class="card-title">Mehedi hasan on <span class="text-muted">Oct 4, 2017</span> </h4>
+            <div class="card-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        <?php endfor; ?>
+      </div>
+
+
     </div>
     <div class="col-md-4">
       <?php require 'partials/sidebar.php' ?>

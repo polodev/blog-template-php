@@ -1,3 +1,10 @@
 body {
   margin-top: 75px;
 }
+.full-height {
+  min-height: 70vh;
+}
+.error {
+  color: crimson;
+  padding: 5px;
+}
