@@ -18,13 +18,13 @@
           </ul>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Polo
+              User
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Login</a>
-              <a class="dropdown-item" href="#">Register</a>
+              <a class="dropdown-item" href="signin.php">Login</a>
+              <a class="dropdown-item" href="signup.php">Register</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Setting</a>
+              <a class="dropdown-item" href="/dashboard">Dashboard</a>
             </div>
           </div>
         </div>
